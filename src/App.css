@@ -12,10 +12,12 @@
   animation: fadeUpUniversal 0.8s ease-out forwards;
 }
 
-.fade-up-on-load > *:nth-child(1) { animation-delay: 0s; }
-.fade-up-on-load > *:nth-child(2) { animation-delay: 0.1s; }
-.fade-up-on-load > *:nth-child(3) { animation-delay: 0.2s; }
-.fade-up-on-load > *:nth-child(4) { animation-delay: 0.3s; }
+.fade-up-on-load > *:nth-child(1) { animation-delay: 0.2s; }
+.fade-up-on-load > *:nth-child(2) { animation-delay: 0.4s; }
+.fade-up-on-load > *:nth-child(3) { animation-delay: 0.5s; }
+.fade-up-on-load > *:nth-child(4) { animation-delay: 0.6s; }
+.fade-up-on-load > *:nth-child(5) { animation-delay: 0.8s; }
+.fade-up-on-load > *:nth-child(6) { animation-delay: 1.0s; }
 
 
 @keyframes fadeUpUniversal {
