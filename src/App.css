@@ -3,6 +3,12 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  color-scheme: light;
+}
+
+body {
+  background: #fff;
+  color: #000;
 }
 
 .fade-up-on-load > * {
@@ -200,42 +206,36 @@
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
 }
 
-.skills-section {
-  margin-top: 2.5rem;
-  text-align: center;
-}
-
-.skills-section h2 {
+.skills-heading{
   text-align: left;
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
   margin-left: 190px;
+  margin-top: 40px;
 }
 
-.skills-grid {
+/* Replace .skills-grid */
+.skills-logos {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 20px;
   justify-content: center;
   padding: 1rem;
   max-width: 900px;
-  margin: 0 auto;
+  text-align: left;
+  margin-left: 190px;
 }
 
-.skill-tag {
-  background-color: #111;
-  color: #fff;
-  font-size: 0.75rem;
-  font-weight: 500;
-  padding: 6px 12px;
-  border-radius: 999px;
-  display: inline-block;
-  transition: background-color 0.2s ease-in-out;
-  user-select: none;
+/* Replaces .skill-tag */
+.skill-icon {
+  font-size: 48px;
+  color: #000; /* Force light mode */
+  transition: transform 0.2s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.skill-tag:hover {
-  background-color: #333;
+.skill-icon:hover {
+  transform: scale(1.1);
 }
 
 .education-section {
